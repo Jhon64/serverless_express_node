@@ -1,0 +1,15 @@
+{
+  "name": "serverless-express-dynamoDB",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.454.0",
+    "@aws-sdk/lib-dynamodb": "^3.454.0",
+    "aws-sdk": "^2.1499.0",
+    "express": "^4.18.2",
+    "serverless-http": "^3.2.0"
+  }
+}
